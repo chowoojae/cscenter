@@ -40,9 +40,9 @@ public class AnswerService {
 		try {
 			Map<String, Object> answersMap = new ObjectMapper().readValue(answers, new TypeReference<Map<String, Object>>() { });
 
-			System.out.println(answersMap.get("answerList"));
-			System.out.println(answersMap.get("answerId"));
-			System.out.println(answersMap.get("answerNm"));
+			//System.out.println(answersMap.get("answerList"));
+			//System.out.println(answersMap.get("answerId"));
+			//System.out.println(answersMap.get("answerNm"));
 
 			List<Map<String, Object>> answerList = (ArrayList<Map<String, Object>>) answersMap.get("answerList");
 			
